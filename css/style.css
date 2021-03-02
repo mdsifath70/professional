@@ -884,6 +884,17 @@ section.recent {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.recent .slider-arrow .before-arrow:hover,
+.recent .slider-arrow .after-arrow:hover {
+	background: var(--comColor);
+	color: var(--color3);
+	-webkit-transform: translateY(-50%) scale(1.1);
+	        -ms-transform: translateY(-50%) scale(1.1);
+	    transform: translateY(-50%) scale(1.1);
 }
 
 .recent .slider-arrow .before-arrow {
